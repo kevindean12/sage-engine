@@ -1,5 +1,5 @@
 #pragma once
-#include "Core.h"
+#include "Core.hpp"
 namespace Sage {
 	class SAGE_API Application
 	{

@@ -1,4 +1,4 @@
-#include <Sage.h>
+#include <Sage.hpp>
 
 class Sandbox : public Sage::Application
 {
