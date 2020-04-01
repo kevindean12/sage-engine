@@ -1,7 +1,7 @@
+#include "Sagepch.hpp"
 #include "Application.hpp"
 #include "Events/ApplicationEvent.hpp"
 #include "Log.hpp"
-#include <stdio.h>
 
 namespace Sage {
 

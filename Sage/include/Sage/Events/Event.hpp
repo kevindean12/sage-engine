@@ -1,8 +1,7 @@
 #pragma once
+#include "Sagepch.hpp"
 #include "Core.hpp"
-#include <string>
-#include <functional>
-#include <sstream>
+
 
 namespace Sage{
 

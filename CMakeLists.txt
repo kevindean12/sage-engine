@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.14)
+cmake_minimum_required(VERSION 3.16)
 project(SageEngine VERSION 0.1.0 LANGUAGES CXX)
 
 #build type
@@ -11,5 +11,6 @@ endif()
 
 add_subdirectory(Sage)
 add_subdirectory(SandboxApp)
+
 
 set_property(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY VS_STARTUP_PROJECT SandboxApp)
