@@ -19,10 +19,13 @@ target_compile_definitions(Sage PRIVATE SAGE_BUILD_DLL SAGE_PLATFORM_WINDOWS)
 target_include_directories(Sage
     PUBLIC src/SageCore
     PUBLIC vendor/spdlog/include
+    PUBLIC vendor/GLFW/include
     PUBLIC include
     PUBLIC include/Sage
 )
 target_precompile_headers(Sage PRIVATE include/Sagepch.hpp)
+
+target_link_libraries(Sage glfw)
 
 set_target_properties(Sage PROPERTIES RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin/${CMAKE_BUILD_TYPE}-${CMAKE_SYSTEM_NAME}/${PROJECT_NAME})
 get_target_property(SAGE_BIN Sage RUNTIME_OUTPUT_DIRECTORY)
