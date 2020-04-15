@@ -1,8 +1,8 @@
 #pragma once
 
-#include "Window.hpp"
+#include "Sage/Window.hpp"
 
-#include "GLFW/glfw3.h"
+#include <GLFW/glfw3.h>
 
 namespace Sage {
 

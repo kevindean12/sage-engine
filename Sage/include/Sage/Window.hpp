@@ -14,13 +14,13 @@ namespace Sage {
         unsigned int Height;
     };
 
-    WindowProps buildMyWindowProps(const std::string& title="Sage Engine", unsigned int width = 1280, unsigned int height = 720)
+    inline WindowProps buildMyWindowProps(const std::string& title="Sage Engine", unsigned int width = 1280, unsigned int height = 720)
     {
         return {title, width, height};
     }
 
     //interface representing a desktop window, to be implemented per-platform
-    class Window {
+    class SAGE_API Window {
     public:
         using EventCallbackFn = std::function<void(Event&)>;
 

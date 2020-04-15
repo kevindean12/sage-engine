@@ -1,6 +1,6 @@
 #pragma once
 #include "Core.hpp"
-#include "Events/Event.hpp"
+#include "Sage/Events/Event.hpp"
 #include "Window.hpp"
 namespace Sage {
 	class SAGE_API Application

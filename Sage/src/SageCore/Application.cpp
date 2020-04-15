@@ -1,7 +1,6 @@
 #include "Sagepch.hpp"
 #include "Application.hpp"
-#include "Events/ApplicationEvent.hpp"
-#include "Log.hpp"
+#include "Sage/Events/ApplicationEvent.hpp"
 #include <GLFW/glfw3.h>
 
 namespace Sage {
